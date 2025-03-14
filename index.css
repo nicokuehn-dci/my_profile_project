@@ -1,0 +1,163 @@
+/* index.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #2f2f2f; /* Dark anthracite background */
+    color: #fff;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #0fa;
+    text-shadow: 0 0 10px #0fa, 0 0 20px #0fa, 0 0 30px #0fa;
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+}
+
+/* Main content styles */
+main {
+    margin-top: 20px;
+    text-align: center; /* Center the text in the main section */
+}
+
+p {
+    color: green;
+    text-align: center;
+    font-size: large;
+}
+
+
+
+
+
+
+dl {
+    margin-bottom: 20px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+dl dd {
+    margin-left: 20px;
+}
+
+/* Image styles */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+    width: 150px;
+    height: auto;
+    border: 5px solid #0fa;
+}
+
+/* Link styles */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form styles */
+form {
+    margin: 20px 0;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 300px;
+}
+
+input[type="submit"] {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0fa;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0052a3;
+}
+
+form input[type="submit"]:hover {
+    background-color: #007a7a;
+}
+
+/* Custom classes and IDs */
+.teama {
+    color: blue;
+
+}
+
+#secondh1 {
+    color: purple;
+    font-family: 'Arial';
+}
+
+#mycontainer {
+    background-color: cyan;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#mycontainer2 {
+    background-color: coral;
+    width: 600px;
+    height: 200px;
+}
+#list {
+   marging: auto;
+
+}

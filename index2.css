@@ -1,0 +1,146 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #666;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Header styles */
+header {
+    background-color: #666;
+    color: orange;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    filter: blur(2px); /* Add blur effect */
+}
+
+h2 {
+    color: white;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Main content styles */
+main {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+p {
+    color: #666;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#list-container {
+    background-color: orange;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+    color: black;
+    border-radius: 10px; /* Rounded borders */
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5); /* Blurred border effect */
+}
+
+ul, ol, dl {
+    margin: 20px 0;
+}
+
+ul li, ol li {
+    margin: 5px 0;
+}
+
+dl {
+    margin-bottom: 20px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 20px;
+}
+
+/* Image styles */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+    width: 150px;
+    border: 2px solid orange;
+    box-shadow: 0 0 10px 5px rgba(255, 165, 0, 0.5); /* Blurred border effect */
+}
+
+/* Form styles */
+form {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5); /* Blurred border effect */
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left; /* Center the form content */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: left;
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+#app {
+    margin-top: 50px;
+}
+
+#weatherDisplay {
+    margin-top: 20px;
+}
